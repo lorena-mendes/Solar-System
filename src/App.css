@@ -1,3 +1,69 @@
-.App {
+body {
+  background-image: url(background.png);
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+.header {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  padding: 100px 0;
+  width: 100%;
+}
+
+.header h1 {
+  color: rgb(194, 181, 181);
+  font-family: sans-serif;
+  font-size: 6rem;
+  text-shadow: 0.2em 0.5em 0.1em #600,
+  -0.3em 0.1em 0.1em #060,
+  0.4em -0.3em 0.1em #006;
+}
+
+.planet {
+  max-width:150px;
+  max-height:80px;
+  width: auto;
+  height: auto;
+  display: flex;
+}
+
+.section-planet-cards p {
+  color: white;
+  color: rgb(194, 181, 181);
+  font-family: sans-serif;
+  font-size: 15px;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.section-planet-cards {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  margin: 5px;
   text-align: center;
+  border: 6px solid grey;
+  border-style:double;
+  border-radius: 30px;
+}
+
+.section-planet-cards:hover {
+  border: 10px solid black;
+  transform: scale(1.2); 
+  box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+}
+
+.headline {
+  color: white;
+  text-align: center;
+}
+
+.solar-system {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
 }
