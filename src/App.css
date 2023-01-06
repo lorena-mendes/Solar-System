@@ -67,3 +67,24 @@ body {
   justify-content: space-between;
   margin: 50px;
 }
+
+.section-missions {
+  width: 150px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 5px;
+  text-align: center;
+  border: 6px solid grey;
+  border-style:double;
+  border-radius: 30px
+}
+
+.missions {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
